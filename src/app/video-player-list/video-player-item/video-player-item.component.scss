@@ -1,0 +1,34 @@
+.video-player-item-wrapper {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+    padding: 50px 30px;
+    height: 100vh;
+    justify-content: space-between;
+    a {
+        width: max-content;
+    }
+    .video-player-item {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .video-details {
+        font-family: "YouTube Sans","Roboto",sans-serif;
+        padding: 0 20px;
+        margin: 10px 0;
+       .video-title {
+            font-size: 22px;
+            line-height: 22px;
+            font-weight: 600;
+        }
+        .video-description {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+   
+ 
+}

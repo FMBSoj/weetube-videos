@@ -1,0 +1,18 @@
+<div class="video-player-item-wrapper">
+    <a class="back-link" routerLink="/video_player_list"> Back</a>
+    <div class="video-player-item" id="{{id}}">
+        <youtube-player
+        [videoId]="id"
+        (ready)="savePlayer($event)"
+        [width]="1024"
+        [height]="1024 * .6"              
+        ></youtube-player>
+    </div>
+    
+    <div class="video-details">
+        <p class="video-title">{{videoItem.name}}</p>
+        <p class="video-description">{{videoItem.description}}</p>
+    </div>
+
+</div>
+
